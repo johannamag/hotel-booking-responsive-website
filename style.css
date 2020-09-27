@@ -114,6 +114,10 @@ section {
   z-index: 1000;
 }
 
+.header.active {
+  background-color: var(--purple-solid);
+}
+
 .nav {
   display: flex;
   align-items: center;
