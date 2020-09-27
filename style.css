@@ -73,6 +73,11 @@ section {
   align-items: center;
 }
 
+.form-btn {
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+
 /*header*/
 
 .header {
@@ -210,4 +215,45 @@ section {
   font-size: 2.4rem;
   margin-left: 0.5rem;
   opacity: 0.75;
+}
+
+/*booking*/
+
+.booking {
+  background-image: var(--gradient-color);
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-label {
+  display: block;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.input,
+.options {
+  outline: none;
+  border: none;
+  width: 100%;
+  min-height: 4rem;
+  padding: 1rem;
+  font-weight: bold;
+  color: #a5a5a5;
+  letter-spacing: 2px;
+  font-family: "Open Sans", sans-serif;
+  resize: none;
+}
+
+.btn-purple {
+  background-color: var(--purple-solid);
+}
+
+.btn-purple:hover {
+  background-color: #56247f;
 }
